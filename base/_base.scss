@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 62.5% is equal to 10px. if we divide 10 by 16 (10 / 16)= .625 or 62.5%
+}
+
+body {
+  box-sizing: border-box;
+}
+
+// This body wrapper will prevent the page from acting weirdly.
+// If we set the body {overflow-x:hidden}, it starts jerking around
+.body-wrapper {
+  position: relative;
+  overflow-x: hidden;
+}

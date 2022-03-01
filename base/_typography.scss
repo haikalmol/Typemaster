@@ -1,0 +1,58 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: $color-secondary-light;
+}
+
+.heading-1,
+.heading-2,
+.heading-3 {
+  color: $color-secondary-dark;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.heading-1 {
+  font-size: 5.6rem;
+  line-height: 1;
+  margin-bottom: 2.4rem;
+
+  @media only screen and (max-width: $bp-tab) {
+    font-size: 4.8rem;
+  }
+
+  @media only screen and (max-width: $bp-phone) {
+    margin-bottom: 3.2rem;
+  }
+}
+
+.heading-2 {
+  font-size: 3.2rem;
+  line-height: 1.125;
+  margin-bottom: 2.7rem;
+
+  @media only screen and (max-width: $bp-tab) {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (max-width: $bp-phone) {
+    margin: 0 2rem;
+  }
+}
+
+.heading-3 {
+  font-size: 2.4rem;
+  line-height: 1.166666667;
+  margin-bottom: 2.4rem;
+
+  @media only screen and (max-width: $bp-tab) {
+    margin-right: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-phone) {
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+}

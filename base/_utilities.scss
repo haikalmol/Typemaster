@@ -1,0 +1,35 @@
+.justify-sb {
+  justify-content: space-between;
+}
+
+.pr-sm {
+  padding-right: 3.5rem;
+}
+
+.pr-md {
+  padding-right: 4rem;
+
+  @media only screen and (max-width: $bp-phone) {
+    padding-right: 0;
+  }
+}
+
+.md-sm {
+  margin-bottom: 4rem;
+
+  @media only screen and (max-width: $bp-phone) {
+    margin-bottom: 3.2rem;
+  }
+}
+
+.ml-sm {
+  margin-left: 3.1rem;
+
+  @media only screen and (max-width: $bp-tab) {
+    margin-left: 0;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}

@@ -1,0 +1,38 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.6rem 2.6rem;
+    display: inline-block;
+    border-radius: 8px;
+    transition: all 0.3s;
+
+    @media only screen and (max-width: $bp-phone) {
+      padding: 1.8rem 1.4rem;
+    }
+  }
+
+  &--secondary {
+    background-color: $color-grey-light;
+    color: $color-secondary-dark;
+
+    &:hover,
+    &:active {
+      background-color: $color-secondary-dark;
+      color: $color-white;
+    }
+  }
+  &--primary {
+    background-color: $color-primary-dark;
+    color: $color-white;
+
+    &:hover,
+    &:active {
+      background-color: $color-primary-light;
+    }
+  }
+}
