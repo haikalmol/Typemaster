@@ -29,11 +29,6 @@ Users should be able to:
 ![](/screenshots/tablet-768px.jpg)
 ![](/screenshots/mobile-375px.jpg)
 
-### Links
-
-- Solution URL: [https://github.com/mexwebdev21/typemaster-landing-page](https://github.com/mexwebdev21/typemaster-landing-page)
-- Live Site URL: [https://typemaster-launch.netlify.app/](https://typemaster-launch.netlify.app/)
-
 ## My process
 
 ### Built with
@@ -48,8 +43,3 @@ Users should be able to:
 ### Continued development
 
 There are some breakpoints that still need to be addressed (especially between 390 and 515px), just to keep the design consistent. I will make sure those details are fixed in the next version.
-
-## Author
-
-- Frontend Mentor - [@mexwebdev21](https://www.frontendmentor.io/profile/mexwebdev21)
-- Twitter - [@mexwebdev2121](https://www.twitter.com/mexwebdev2121)
